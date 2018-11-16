@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dc8678ee-291d-467b-befe-f37de4f9f475" name="Default" comment="" />
+    <list default="true" id="dc8678ee-291d-467b-befe-f37de4f9f475" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/solcanma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboard_and_video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple_takeoff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelloFollowSomething.py" beforeDir="false" afterPath="$PROJECT_DIR$/TelloFollowSomething.py" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,15 +21,38 @@
     <favorites_list name="Playground" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="TelloFollowSomething.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TelloFollowSomething.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2363">
-              <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
+            <state relative-caret-position="-163">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
-                <element signature="e#386#404#0" expanded="true" />
-                <element signature="e#4276#4782#0" />
+                <element signature="e#48#76#0" expanded="true" />
+                <element signature="e#819#1562#0" />
+                <element signature="e#3599#3720#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tello.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/Python35/Lib/site-packages/tellopy/_internal/tello.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6681">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple_takeoff.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple_takeoff.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#180#533#0" />
               </folding>
             </state>
           </provider>
@@ -37,16 +67,26 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>label</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/.idea/simple_takeoff.py" />
+        <option value="$PROJECT_DIR$/keyboard_and_video.py" />
+        <option value="$PROJECT_DIR$/simple_takeoff.py" />
         <option value="$PROJECT_DIR$/TelloFollowSomething.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
@@ -55,38 +95,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Playground" type="462c0819:PsiDirectoryNode" />
+              <item name="Playground2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Playground2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Playground" type="462c0819:PsiDirectoryNode" />
+              <item name="Playground2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Playground2" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Playground" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (Vendor-Dep) &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TelloFollowSomething.py" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MS\gitrepoPrivate\gitrepo\Playground2\" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -129,7 +166,7 @@
       </envs>
       <option name="SDK_HOME" value="C:\Users\solcanma\AppData\Local\conda\conda\envs\Python35\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TelloFollowSomething.py" />
@@ -198,52 +235,140 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.32852387" />
-      <window_info id="DB Browser" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="DB Execution Console" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32837406" />
+      <window_info anchor="bottom" id="DB Execution Console" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.3955224" side_tool="true" visible="true" weight="0.35072142" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" sideWeight="0.4989339" weight="0.32852387" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.33581296" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48400852" weight="0.019977802" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49683544" visible="true" weight="0.3054371" />
-      <window_info id="Project Explorer" />
-      <window_info id="Job Explorer" />
-      <window_info anchor="bottom" id="Console" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Project Explorer" order="7" />
+      <window_info id="Job Explorer" order="7" />
+      <window_info anchor="bottom" id="Console" order="10" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.50427353" side_tool="true" visible="true" weight="0.30863538" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5031645" side_tool="true" visible="true" weight="0.3054371" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.32852387" />
+      <window_info id="DB Browser" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6044776" visible="true" weight="0.35072142" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" weight="0.32852387" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48400852" weight="0.019977802" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4957265" visible="true" weight="0.30863538" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4968017" weight="0.32852387" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50427353" side_tool="true" weight="0.30863538" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/keyboard_and_video.py</url>
+          <line>144</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/keyboard_and_video.py</url>
+          <line>162</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TelloFollowSomething.py</url>
+          <line>158</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/simple_takeoff.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TelloFollowSomething.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
+        <state relative-caret-position="2703">
           <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
           <folding>
-            <element signature="e#386#404#0" expanded="true" />
-            <element signature="e#4276#4782#0" />
+            <element signature="e#48#76#0" expanded="true" />
+            <element signature="e#819#1562#0" />
+            <element signature="e#3599#3720#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/Python35/Lib/site-packages/cvlib/object_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keyboard_and_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1336">
+          <caret line="271" selection-start-line="271" selection-end-line="271" selection-end-column="26" />
+          <folding>
+            <element signature="e#522#533#0" expanded="true" />
+            <element signature="e#1123#1151#0" />
+            <element signature="e#1354#2175#0" />
+            <element signature="e#1462#1646#0" />
+            <element signature="e#1721#1827#0" />
+            <element signature="e#2213#2267#0" />
+            <element signature="e#2302#2353#0" />
+            <element signature="e#2390#2969#0" />
+            <element signature="e#2982#3698#0" />
+            <element signature="e#3737#4516#0" />
+            <element signature="e#4759#5373#0" />
+            <element signature="e#5443#5800#0" />
+            <element signature="e#5850#5997#0" />
+            <element signature="e#6047#6612#0" />
+            <element signature="e#6663#6983#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/Python35/Lib/site-packages/tellopy/_internal/tello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6681">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple_takeoff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#180#533#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TelloFollowSomething.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="e#48#76#0" expanded="true" />
+            <element signature="e#819#1562#0" />
+            <element signature="e#3599#3720#0" />
           </folding>
         </state>
       </provider>
