@@ -4,7 +4,7 @@ from threading import Thread
 import cvlib as cv
 from cvlib.object_detection import draw_bbox
 import cv2
-import simple_takeoff
+#import simple_takeoff
 
 # variable definition
 # objectToFolow = 'person'
