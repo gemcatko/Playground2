@@ -13,7 +13,7 @@ import logging
 
 # variable definition
 # objectToFolow = 'person'
-objectToFolow = 'cell phone'
+objectToFolow = 'sports ball'
 #Xresolution = 680
 #Yresolution = 480
 Xresolution = 960
@@ -31,7 +31,12 @@ def getnavcoordinates(bbox, label):
     global boxLengh
     global boxMiddleX
     global diffFromMiddleX
+    global objectToFolow
     try:
+        if not objectToFolow in label:
+            global boxMiddleX
+            boxMiddleX = stredX
+            pass
         boxLengh = bbox[label.index(objectToFolow)][2] - bbox[label.index(objectToFolow)][0]
         # boxMiddleX(stred boundig buxu na X ose) = (bboxleght X1 /2) + suradnica X1
         # <-- kedze suradnic moze byt viac napr:
@@ -49,19 +54,24 @@ def getnavcoordinates(bbox, label):
     pass
 
 def navigatemiddle(bbox, label, conf, frame):
-    #TODO toto nefunguje stale to dakde taha
     global boxLengh
     global boxMiddleX
     global diffFromMiddleX
     try:
+        if objectToFolow in label:
+            drone.takeoff()
+            pass
+        if "knife" in label:
+            drone.land()
+            pass
         if boxMiddleX < stredX:
             if diffFromMiddleX > ( Xresolution * 0.1 ):
                 #call funktion to rotate right fast
                 print("doprva rychlo")
-                return ()
+                pass
             else:
                 #print("boxMiddleX", boxMiddleX)
-                print("doprva")
+                print("doprava")
                 #call funktion to rotate right
                 pass
             pass
@@ -69,13 +79,16 @@ def navigatemiddle(bbox, label, conf, frame):
             if diffFromMiddleX > ( Xresolution * 0.1 ):
                 print("lavo rychlo")
                 #call funktion to rotate right fast
+                #drone.counter_clockwise(20)
             else:
                 #print("boxMiddleX", boxMiddleX)
                 print("lavo")
                 #call fuction to rotate dolava
+
                 pass
             pass
         print("stredX:", stredX, "diffFromMiddleX:", diffFromMiddleX, "boxMiddleX:", boxMiddleX)
+
         # print("boxLengh",boxLengh)
         # print("boxMiddleX",boxMiddleX)
     except Exception as e:
