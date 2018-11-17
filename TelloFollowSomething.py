@@ -4,9 +4,9 @@ from threading import Thread
 import cvlib as cv
 from cvlib.object_detection import draw_bbox
 import cv2
-#import simple_takeoff
 import traceback
 import logging
+
 # variable definition
 # objectToFolow = 'person'
 objectToFolow = 'cell phone'
@@ -37,9 +37,6 @@ def getnavcoordinates(bbox, label):
     global boxLengh
     global boxMiddleX
     global diffFromMiddleX
-    boxMiddleX = 0
-    diffFromMiddleX =0
-    #TODO toto nefunguje stale to dakde taha
     try:
         boxLengh = bbox[label.index(objectToFolow)][2] - bbox[label.index(objectToFolow)][0]
         # boxMiddleX(stred boundig buxu na X ose) = (bboxleght X1 /2) + suradnica X1
@@ -80,6 +77,7 @@ def navigatewhere():
     pass
 
 def navigatemiddle(bbox, label, conf, frame):
+    #TODO toto nefunguje stale to dakde taha
     global boxLengh
     global boxMiddleX
     global diffFromMiddleX
@@ -88,6 +86,7 @@ def navigatemiddle(bbox, label, conf, frame):
             if diffFromMiddleX > ( Xresolution * 0.1 ):
                 #call funktion to rotate right fast
                 print("doprva rychlo")
+                return ()
             else:
                 #print("boxMiddleX", boxMiddleX)
                 print("doprva")

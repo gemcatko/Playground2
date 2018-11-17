@@ -7,17 +7,89 @@ import cv2.cv2 as cv2  # for avoidance of pylint error
 import numpy
 import time
 import cvlib as cv
-from TelloFollowSomething import getnavcoordinates, navigatewhere,navigatemiddle,navigateForwardBackward
+#from TelloFollowSomething import getnavcoordinates, navigatewhere,navigatemiddle,navigateForwardBackward
 from cvlib.object_detection import draw_bbox
+import logging
 
+# variable definition
+# objectToFolow = 'person'
+objectToFolow = 'cell phone'
+#Xresolution = 680
+#Yresolution = 480
+Xresolution = 960
+Yresolution = 720
+bbox = [[1,1,1,1]]
+percentObjectToFolow = 0.5 # to define how far objectToFolow should be it 0.2 = 20%
+# variable normalization
+x1percento = Xresolution/100
+stredX = Xresolution/2
+drone = tellopy.Tello()
+
+def getnavcoordinates(bbox, label):
+    # X 680*Y 480
+    # [[X1 371,X2 18,Y1 639,Y2 388]]
+    global boxLengh
+    global boxMiddleX
+    global diffFromMiddleX
+    try:
+        boxLengh = bbox[label.index(objectToFolow)][2] - bbox[label.index(objectToFolow)][0]
+        # boxMiddleX(stred boundig buxu na X ose) = (bboxleght X1 /2) + suradnica X1
+        # <-- kedze suradnic moze byt viac napr:
+        # [[272, 294, 440, 480], [-5, 133, 439, 491]] ['remote', 'person'] [0.9549392461776733, 0.6422694325447083]
+        # treba volat s indexom label.index(objectToFolow)
+        boxMiddleX = ((boxLengh/2) + bbox[label.index(objectToFolow)][0])
+        # diffFromMiddleX = abs (stred predpopevedaneho objektu x - stred x podla rozlisenia)
+        #  is used for speed of rotation to the object
+        diffFromMiddleX = abs(boxMiddleX - stredX)
+    except ValueError as err:
+        print('There is an problem in getnavcoordinates () ValueError:', err)
+        pass
+    else:
+        pass
+    pass
+
+def navigatemiddle(bbox, label, conf, frame):
+    #TODO toto nefunguje stale to dakde taha
+    global boxLengh
+    global boxMiddleX
+    global diffFromMiddleX
+    try:
+        if boxMiddleX < stredX:
+            if diffFromMiddleX > ( Xresolution * 0.1 ):
+                #call funktion to rotate right fast
+                print("doprva rychlo")
+                return ()
+            else:
+                #print("boxMiddleX", boxMiddleX)
+                print("doprva")
+                #call funktion to rotate right
+                pass
+            pass
+        if boxMiddleX > stredX:
+            if diffFromMiddleX > ( Xresolution * 0.1 ):
+                print("lavo rychlo")
+                #call funktion to rotate right fast
+            else:
+                #print("boxMiddleX", boxMiddleX)
+                print("lavo")
+                #call fuction to rotate dolava
+                pass
+            pass
+        print("stredX:", stredX, "diffFromMiddleX:", diffFromMiddleX, "boxMiddleX:", boxMiddleX)
+        # print("boxLengh",boxLengh)
+        # print("boxMiddleX",boxMiddleX)
+    except Exception as e:
+        logging.error(traceback.format_exc())
+        print("There was exception at navigate middle error is:", e)
+    else:
+        print("navigate middle() executeted succesfully")
+    pass
 
 def handler(event, sender, data, **args):
     drone = sender
     if event is drone.EVENT_FLIGHT_DATA:
         print(data)
 
-
-drone = tellopy.Tello()
 def test():
     # drone = tellopy.Tello()
     try:
@@ -34,6 +106,7 @@ def test():
         print(ex)
     finally:
         drone.quit()
+
 def right():
     drone = tellopy.Tello()
     try:
@@ -104,8 +177,6 @@ def video():
     finally:
         drone.quit()
         cv2.destroyAllWindows()
-
-
 
 if __name__ == '__main__':
     #test()

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc8678ee-291d-467b-befe-f37de4f9f475" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TelloFollowSomething.py" beforeDir="false" afterPath="$PROJECT_DIR$/TelloFollowSomething.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple_takeoff.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_takeoff.py" afterDir="false" />
     </list>
@@ -18,67 +19,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TelloFollowSomething.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TelloFollowSomething.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-              <folding>
-                <element signature="e#48#76#0" expanded="true" />
-                <element signature="e#556#631#0" />
-                <element signature="e#1584#1942#0" />
-                <element signature="e#1969#2188#0" />
-                <element signature="e#3050#3383#0" />
-                <element signature="e#3128#3828#0" />
-                <element signature="e#3599#3720#0" />
-                <element signature="e#4108#5063#0" />
-                <element signature="e#5086#5445#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple_takeoff.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="simple_takeoff.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple_takeoff.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
+            <state relative-caret-position="187">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#724#1681#0" />
                 <element signature="e#86#161#0" />
                 <element signature="e#322#677#0" />
                 <element signature="e#550#903#0" />
+                <element signature="e#1242#3403#0" />
+                <element signature="e#1285#3156#0" />
+                <element signature="e#1536#3156#0" />
+                <element signature="e#1592#3160#0" />
+                <element signature="e#1832#1870#0" />
+                <element signature="e#2591#2632#0" />
+                <element signature="e#3198#3337#0" />
+                <element signature="e#3359#3403#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/Python35/Lib/site-packages/cvlib/__init__.py">
+      <file leaf-file-name="TelloFollowSomething.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TelloFollowSomething.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="face_detection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/Python35/Lib/site-packages/cvlib/face_detection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="14" />
               <folding>
-                <element signature="e#95#105#0" expanded="true" />
+                <element signature="e#764#1721#0" />
+                <element signature="e#1767#2152#0" />
+                <element signature="e#2450#3710#0" />
+                <element signature="e#3747#4080#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="object_detection.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/Python35/Lib/site-packages/cvlib/object_detection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -98,6 +73,7 @@
       <find>object</find>
       <find>out</find>
       <find>web</find>
+      <find>There is an problem in getnavcoordinates</find>
       <find>get</find>
     </findStrings>
   </component>
@@ -109,8 +85,8 @@
       <list>
         <option value="$PROJECT_DIR$/.idea/simple_takeoff.py" />
         <option value="$PROJECT_DIR$/keyboard_and_video.py" />
-        <option value="$PROJECT_DIR$/simple_takeoff.py" />
         <option value="$PROJECT_DIR$/TelloFollowSomething.py" />
+        <option value="$PROJECT_DIR$/simple_takeoff.py" />
       </list>
     </option>
   </component>
@@ -350,7 +326,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/simple_takeoff.py</url>
-          <line>36</line>
+          <line>109</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
@@ -363,15 +339,10 @@
         <state relative-caret-position="2703">
           <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
           <folding>
-            <element signature="e#48#76#0" expanded="true" />
-            <element signature="e#556#631#0" />
-            <element signature="e#1584#1942#0" />
-            <element signature="e#1969#2188#0" />
-            <element signature="e#3050#3383#0" />
-            <element signature="e#3128#3828#0" />
-            <element signature="e#3599#3720#0" />
-            <element signature="e#4108#5063#0" />
-            <element signature="e#5086#5445#0" />
+            <element signature="e#764#1721#0" />
+            <element signature="e#1767#2152#0" />
+            <element signature="e#2450#3710#0" />
+            <element signature="e#3747#4080#0" />
           </folding>
         </state>
       </provider>
@@ -434,33 +405,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple_takeoff.py">
+    <entry file="file://$PROJECT_DIR$/TelloFollowSomething.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="81" column="42" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="14" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <element signature="e#86#161#0" />
-            <element signature="e#322#677#0" />
-            <element signature="e#550#903#0" />
+            <element signature="e#764#1721#0" />
+            <element signature="e#1767#2152#0" />
+            <element signature="e#2450#3710#0" />
+            <element signature="e#3747#4080#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TelloFollowSomething.py">
+    <entry file="file://$PROJECT_DIR$/simple_takeoff.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        <state relative-caret-position="187">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
-            <element signature="e#48#76#0" expanded="true" />
-            <element signature="e#556#631#0" />
-            <element signature="e#1584#1942#0" />
-            <element signature="e#1969#2188#0" />
-            <element signature="e#3050#3383#0" />
-            <element signature="e#3128#3828#0" />
-            <element signature="e#3599#3720#0" />
-            <element signature="e#4108#5063#0" />
-            <element signature="e#5086#5445#0" />
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#724#1681#0" />
+            <element signature="e#86#161#0" />
+            <element signature="e#322#677#0" />
+            <element signature="e#550#903#0" />
+            <element signature="e#1242#3403#0" />
+            <element signature="e#1285#3156#0" />
+            <element signature="e#1536#3156#0" />
+            <element signature="e#1592#3160#0" />
+            <element signature="e#1832#1870#0" />
+            <element signature="e#2591#2632#0" />
+            <element signature="e#3198#3337#0" />
+            <element signature="e#3359#3403#0" />
           </folding>
         </state>
       </provider>
