@@ -7,6 +7,7 @@ import cv2.cv2 as cv2  # for avoidance of pylint error
 import numpy
 import time
 import cvlib as cv
+from TelloFollowSomething import getnavcoordinates, navigatewhere,navigatemiddle,navigateForwardBackward
 from cvlib.object_detection import draw_bbox
 
 
@@ -69,13 +70,31 @@ def video():
                     continue
                 start_time = time.time()
                 image = cv2.cvtColor(numpy.array(frame.to_image()), cv2.COLOR_RGB2BGR)
-                cv2.imshow('Original', image)
-                cv2.imshow('Canny', cv2.Canny(image, 100, 200))
+                #height, width, channels = image.shape
+                #print("height, width, channels of the picture are:", height, width, channels)
+
+                #cv2.imshow('Original', image)
+                #cv2.imshow('Canny', cv2.Canny(image, 100, 200))
                 # apply object detection
                 #status, frame = webcam.read()
+                #bbox, label, conf = cv.detect_common_objects(image)
+                #faces, confidences = cv.detect_face(image)
+                #print("faces, confidences", faces, confidences)
+                #label = ["person"]
+                #labelos = [[faces]] ['faces'] [confidences]
+                #out = draw_bbox(image,[faces],['person'],[confidences])
                 bbox, label, conf = cv.detect_common_objects(image)
                 print(bbox, label, conf)
-                cv2.waitKey(1)
+                out = draw_bbox(image, bbox, label, conf)
+                # display output
+                cv2.imshow("Real-time object detection", out)
+                getnavcoordinates(bbox, label)
+                navigatemiddle(bbox, label, conf, frame)
+                # press "Q" to stop
+                if cv2.waitKey(1) & 0xFF == ord('q'):
+                    break
+                #cv2.imshow("Real-time object detection")
+                #cv2.waitKey(1)
                 frame_skip = int((time.time() - start_time)/frame.time_base)
 
     except Exception as ex:
