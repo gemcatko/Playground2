@@ -72,6 +72,12 @@ def navigatemiddle(bbox, label, conf, frame):
         if "fork" in label:
             drone.counter_clockwise(100)
             pass
+        if "apple" in label:
+            drone.flip_forward()
+            pass
+        if "orange" in label:
+            drone.flip_back()
+            pass
         if ("fork" or "spoon") not in label:
             drone.counter_clockwise(0)
             pass
