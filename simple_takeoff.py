@@ -73,10 +73,13 @@ def navigatemiddle(bbox, label, conf, frame):
             drone.counter_clockwise(100)
             pass
         if "apple" in label:
-            drone.flip_forward()
+            drone.forward(25)
             pass
         if "orange" in label:
             drone.flip_back()
+            pass
+        if ("apple") not in label:
+            drone.forward(0)
             pass
         if ("fork" or "spoon") not in label:
             drone.counter_clockwise(0)
@@ -134,7 +137,6 @@ def test():
         sleep(5)
         drone.land()
         sleep(5)
-        cv2.dnn
     except Exception as ex:
         print(ex)
     finally:
@@ -164,7 +166,7 @@ def video():
 
     try:
         drone.connect()
-        drone.wait_for_connection(60.0)
+        drone.wait_for_connection(1000.0)
 
         container = av.open(drone.get_video_stream())
         print("type(container)", type(container))

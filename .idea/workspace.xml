@@ -21,13 +21,22 @@
       <file leaf-file-name="simple_takeoff.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple_takeoff.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1275">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="174">
+              <caret line="168" column="38" selection-start-line="168" selection-start-column="38" selection-end-line="168" selection-end-column="38" />
               <folding>
-                <element signature="e#86#161#0" />
-                <element signature="e#550#903#0" />
-                <element signature="e#1832#1870#0" />
-                <element signature="e#2591#2632#0" />
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tello.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/Python35/Lib/site-packages/tellopy/_internal/tello.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2869">
+              <caret line="223" column="8" selection-start-line="223" selection-start-column="8" selection-end-line="223" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,6 +62,7 @@
       <find>clo</find>
       <find>readNet</find>
       <find>navi</find>
+      <find>60</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -68,11 +78,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-43" />
-    <option name="y" value="1117" />
-    <option name="width" value="1920" />
-    <option name="height" value="1020" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="-7" />
+    <option name="width" value="1550" />
+    <option name="height" value="838" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -214,36 +224,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-34" y="1110" width="1536" height="816" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="DB Execution Console" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.40298507" side_tool="true" weight="0.47835737" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Project Explorer" order="7" />
-      <window_info id="Job Explorer" order="7" />
-      <window_info anchor="bottom" id="Console" order="10" />
-      <window_info id="Structure" order="1" sideWeight="0.82765955" side_tool="true" visible="true" weight="0.25677508" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.32852387" />
       <window_info id="DB Browser" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="DB Execution Console" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5970149" visible="true" weight="0.40573153" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.40298507" side_tool="true" weight="0.47835737" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5970149" visible="true" weight="0.29832402" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" weight="0.32852387" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.48400852" weight="0.26193118" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.17234042" weight="0.30863538" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4968017" weight="0.32852387" />
+      <window_info id="Project Explorer" order="7" />
+      <window_info id="Job Explorer" order="7" />
+      <window_info anchor="bottom" id="Console" order="10" />
+      <window_info id="Structure" order="1" sideWeight="0.82765955" side_tool="true" visible="true" weight="0.20415778" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="6" sideWeight="0.82765955" side_tool="true" weight="0.30863538" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4968017" weight="0.32852387" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -266,18 +276,18 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.40298507" side_tool="true" visible="true" weight="0.47835737" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.17234042" visible="true" weight="0.30863538" />
-      <window_info id="Job Explorer" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" weight="0.32852387" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info id="Structure" order="1" sideWeight="0.82765955" side_tool="true" visible="true" weight="0.30863538" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4968017" weight="0.32852387" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Job Explorer" order="9" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.17234042" visible="true" weight="0.30863538" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.32852387" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Console" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" weight="0.32852387" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4968017" weight="0.32852387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout-to-restore>
   </component>
@@ -304,7 +314,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/simple_takeoff.py</url>
-          <line>143</line>
+          <line>145</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
@@ -312,6 +322,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/simple_takeoff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="44" lean-forward="true" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TelloFollowSomething.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2703">
@@ -353,9 +373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-          <folding>
-            <element signature="e#95#105#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -372,16 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/Python35/Lib/site-packages/tellopy/_internal/tello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="233" column="8" selection-start-line="233" selection-start-column="8" selection-end-line="233" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/Python35/Lib/site-packages/cvlib/object_detection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -393,9 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#90#129#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -413,15 +417,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/Python35/Lib/site-packages/tellopy/_internal/tello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2869">
+          <caret line="223" column="8" selection-start-line="223" selection-start-column="8" selection-end-line="223" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/simple_takeoff.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1275">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="174">
+          <caret line="168" column="38" selection-start-line="168" selection-start-column="38" selection-end-line="168" selection-end-column="38" />
           <folding>
-            <element signature="e#86#161#0" />
-            <element signature="e#550#903#0" />
-            <element signature="e#1832#1870#0" />
-            <element signature="e#2591#2632#0" />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
