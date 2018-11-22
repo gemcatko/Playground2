@@ -134,6 +134,7 @@ def test():
         sleep(5)
         drone.land()
         sleep(5)
+        cv2.dnn
     except Exception as ex:
         print(ex)
     finally:
